@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0FBA0CED28EDB95500E1BDA3 /* WorkingTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */; };
-		0FBA0CEF28EDB95500E1BDA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CEE28EDB95500E1BDA3 /* ContentView.swift */; };
+		0FBA0CEF28EDB95500E1BDA3 /* WorkTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */; };
 		0FBA0CF128EDB95700E1BDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */; };
 		0FBA0CF528EDB95700E1BDA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0CF428EDB95700E1BDA3 /* Preview Assets.xcassets */; };
 		0FBA0CFF28EDB95700E1BDA3 /* WorkingTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CFE28EDB95700E1BDA3 /* WorkingTimeTests.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		0FBA0CE928EDB95500E1BDA3 /* WorkingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeApp.swift; sourceTree = "<group>"; };
-		0FBA0CEE28EDB95500E1BDA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeView.swift; sourceTree = "<group>"; };
 		0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBA0CF228EDB95700E1BDA3 /* WorkingTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkingTime.entitlements; sourceTree = "<group>"; };
 		0FBA0CF428EDB95700E1BDA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -97,12 +97,11 @@
 		0FBA0CEB28EDB95500E1BDA3 /* WorkingTime */ = {
 			isa = PBXGroup;
 			children = (
+				0FBA0D1928EDC82B00E1BDA3 /* Sources */,
 				0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */,
-				0FBA0CEE28EDB95500E1BDA3 /* ContentView.swift */,
 				0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */,
 				0FBA0CF228EDB95700E1BDA3 /* WorkingTime.entitlements */,
 				0FBA0CF328EDB95700E1BDA3 /* Preview Content */,
-				0FBA0D1728EDBF8B00E1BDA3 /* WorkTimeModel.swift */,
 			);
 			path = WorkingTime;
 			sourceTree = "<group>";
@@ -130,6 +129,39 @@
 				0FBA0D0A28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */,
 			);
 			path = WorkingTimeUITests;
+			sourceTree = "<group>";
+		};
+		0FBA0D1928EDC82B00E1BDA3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA0D1A28EDC85400E1BDA3 /* WorkTime */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0FBA0D1A28EDC85400E1BDA3 /* WorkTime */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA0D1C28EDC86100E1BDA3 /* Model */,
+				0FBA0D1B28EDC85D00E1BDA3 /* View */,
+			);
+			path = WorkTime;
+			sourceTree = "<group>";
+		};
+		0FBA0D1B28EDC85D00E1BDA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FBA0D1C28EDC86100E1BDA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA0D1728EDBF8B00E1BDA3 /* WorkTimeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBA0CEF28EDB95500E1BDA3 /* ContentView.swift in Sources */,
+				0FBA0CEF28EDB95500E1BDA3 /* WorkTimeView.swift in Sources */,
 				0FBA0D1828EDBF8B00E1BDA3 /* WorkTimeModel.swift in Sources */,
 				0FBA0CED28EDB95500E1BDA3 /* WorkingTimeApp.swift in Sources */,
 			);

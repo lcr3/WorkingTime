@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  WorkTimeView.swift
 //  WorkingTime
 //
 //  Created by lcr on 2022/10/05.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct WorkTimeView: View {
     @ObservedObject var model: WorkTimeModel
 
     init() {
@@ -15,8 +15,8 @@ struct ContentView: View {
     }
 
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
+        VStack(spacing: 12) {
+            Image(systemName: "stopwatch")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text(model.today)
@@ -39,8 +39,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WorkTimeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WorkTimeView()
     }
 }

@@ -31,11 +31,11 @@ struct ContentView: View {
                     model.endButtonTapped()
                 }
             }
-            List {
+            List(model.timeline, id: \.self) { timeline in
+                Text(timeline)
             }
         }
         .padding()
-//        .frame(width: )
     }
 }
 

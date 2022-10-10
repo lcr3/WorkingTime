@@ -2,16 +2,19 @@
 //  WorkingTimeApp.swift
 //  WorkingTime
 //
-//  Created by lcr on 2022/10/05.
+//  Created by lcr on 2022/10/10.
 //
 
 import SwiftUI
 
 @main
 struct WorkingTimeApp: App {
+    let persistenceController = PersistenceController.shared
+
     var body: some Scene {
         WindowGroup {
-            WorkTimeView()
+            ContentView()
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

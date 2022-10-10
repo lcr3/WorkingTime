@@ -7,64 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FBA0CED28EDB95500E1BDA3 /* WorkingTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */; };
-		0FBA0CEF28EDB95500E1BDA3 /* WorkTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */; };
-		0FBA0CF128EDB95700E1BDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */; };
-		0FBA0CF528EDB95700E1BDA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0CF428EDB95700E1BDA3 /* Preview Assets.xcassets */; };
-		0FBA0CFF28EDB95700E1BDA3 /* WorkingTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0CFE28EDB95700E1BDA3 /* WorkingTimeTests.swift */; };
-		0FBA0D0928EDB95700E1BDA3 /* WorkingTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D0828EDB95700E1BDA3 /* WorkingTimeUITests.swift */; };
-		0FBA0D0B28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D0A28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */; };
-		0FBA0D1828EDBF8B00E1BDA3 /* WorkTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D1728EDBF8B00E1BDA3 /* WorkTimeModel.swift */; };
+		0FBA0D2D28F427B700E1BDA3 /* WorkingTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D2C28F427B700E1BDA3 /* WorkingTimeApp.swift */; };
+		0FBA0D2F28F427B700E1BDA3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D2E28F427B700E1BDA3 /* Persistence.swift */; };
+		0FBA0D3228F427B700E1BDA3 /* WorkingTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D3028F427B700E1BDA3 /* WorkingTime.xcdatamodeld */; };
+		0FBA0D3428F427B700E1BDA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D3328F427B700E1BDA3 /* ContentView.swift */; };
+		0FBA0D3628F427B800E1BDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0D3528F427B800E1BDA3 /* Assets.xcassets */; };
+		0FBA0D3A28F427B800E1BDA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA0D3928F427B800E1BDA3 /* Preview Assets.xcassets */; };
+		0FBA0D4428F427B800E1BDA3 /* WorkingTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D4328F427B800E1BDA3 /* WorkingTimeTests.swift */; };
+		0FBA0D4E28F427B800E1BDA3 /* WorkingTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D4D28F427B800E1BDA3 /* WorkingTimeUITests.swift */; };
+		0FBA0D5028F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D4F28F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */; };
+		0FBA0D6C28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D6A28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift */; };
+		0FBA0D6D28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FBA0CFB28EDB95700E1BDA3 /* PBXContainerItemProxy */ = {
+		0FBA0D4028F427B800E1BDA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0FBA0CE128EDB95500E1BDA3 /* Project object */;
+			containerPortal = 0FBA0D2128F427B700E1BDA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0FBA0CE828EDB95500E1BDA3;
+			remoteGlobalIDString = 0FBA0D2828F427B700E1BDA3;
 			remoteInfo = WorkingTime;
 		};
-		0FBA0D0528EDB95700E1BDA3 /* PBXContainerItemProxy */ = {
+		0FBA0D4A28F427B800E1BDA3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0FBA0CE128EDB95500E1BDA3 /* Project object */;
+			containerPortal = 0FBA0D2128F427B700E1BDA3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0FBA0CE828EDB95500E1BDA3;
+			remoteGlobalIDString = 0FBA0D2828F427B700E1BDA3;
 			remoteInfo = WorkingTime;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FBA0CE928EDB95500E1BDA3 /* WorkingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeApp.swift; sourceTree = "<group>"; };
-		0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeView.swift; sourceTree = "<group>"; };
-		0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FBA0CF228EDB95700E1BDA3 /* WorkingTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkingTime.entitlements; sourceTree = "<group>"; };
-		0FBA0CF428EDB95700E1BDA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0FBA0CFA28EDB95700E1BDA3 /* WorkingTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FBA0CFE28EDB95700E1BDA3 /* WorkingTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeTests.swift; sourceTree = "<group>"; };
-		0FBA0D0428EDB95700E1BDA3 /* WorkingTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FBA0D0828EDB95700E1BDA3 /* WorkingTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeUITests.swift; sourceTree = "<group>"; };
-		0FBA0D0A28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0FBA0D1728EDBF8B00E1BDA3 /* WorkTimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeModel.swift; sourceTree = "<group>"; };
+		0FBA0D2928F427B700E1BDA3 /* WorkingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBA0D2C28F427B700E1BDA3 /* WorkingTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeApp.swift; sourceTree = "<group>"; };
+		0FBA0D2E28F427B700E1BDA3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0FBA0D3128F427B700E1BDA3 /* WorkingTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkingTime.xcdatamodel; sourceTree = "<group>"; };
+		0FBA0D3328F427B700E1BDA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FBA0D3528F427B800E1BDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FBA0D3728F427B800E1BDA3 /* WorkingTime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkingTime.entitlements; sourceTree = "<group>"; };
+		0FBA0D3928F427B800E1BDA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FBA0D3F28F427B800E1BDA3 /* WorkingTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBA0D4328F427B800E1BDA3 /* WorkingTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeTests.swift; sourceTree = "<group>"; };
+		0FBA0D4928F427B800E1BDA3 /* WorkingTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBA0D4D28F427B800E1BDA3 /* WorkingTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeUITests.swift; sourceTree = "<group>"; };
+		0FBA0D4F28F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FBA0D6A28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkTime+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkTime+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FBA0CE628EDB95500E1BDA3 /* Frameworks */ = {
+		0FBA0D2628F427B700E1BDA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0CF728EDB95700E1BDA3 /* Frameworks */ = {
+		0FBA0D3C28F427B800E1BDA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0D0128EDB95700E1BDA3 /* Frameworks */ = {
+		0FBA0D4628F427B800E1BDA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,92 +80,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FBA0CE028EDB95500E1BDA3 = {
+		0FBA0D2028F427B700E1BDA3 = {
 			isa = PBXGroup;
 			children = (
-				0FBA0CEB28EDB95500E1BDA3 /* WorkingTime */,
-				0FBA0CFD28EDB95700E1BDA3 /* WorkingTimeTests */,
-				0FBA0D0728EDB95700E1BDA3 /* WorkingTimeUITests */,
-				0FBA0CEA28EDB95500E1BDA3 /* Products */,
+				0FBA0D2B28F427B700E1BDA3 /* WorkingTime */,
+				0FBA0D4228F427B800E1BDA3 /* WorkingTimeTests */,
+				0FBA0D4C28F427B800E1BDA3 /* WorkingTimeUITests */,
+				0FBA0D2A28F427B700E1BDA3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0FBA0CEA28EDB95500E1BDA3 /* Products */ = {
+		0FBA0D2A28F427B700E1BDA3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0CE928EDB95500E1BDA3 /* WorkingTime.app */,
-				0FBA0CFA28EDB95700E1BDA3 /* WorkingTimeTests.xctest */,
-				0FBA0D0428EDB95700E1BDA3 /* WorkingTimeUITests.xctest */,
+				0FBA0D2928F427B700E1BDA3 /* WorkingTime.app */,
+				0FBA0D3F28F427B800E1BDA3 /* WorkingTimeTests.xctest */,
+				0FBA0D4928F427B800E1BDA3 /* WorkingTimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FBA0CEB28EDB95500E1BDA3 /* WorkingTime */ = {
+		0FBA0D2B28F427B700E1BDA3 /* WorkingTime */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0D1928EDC82B00E1BDA3 /* Sources */,
-				0FBA0CEC28EDB95500E1BDA3 /* WorkingTimeApp.swift */,
-				0FBA0CF028EDB95700E1BDA3 /* Assets.xcassets */,
-				0FBA0CF228EDB95700E1BDA3 /* WorkingTime.entitlements */,
-				0FBA0CF328EDB95700E1BDA3 /* Preview Content */,
+				0FBA0D6428F42E5100E1BDA3 /* Souces */,
+				0FBA0D2C28F427B700E1BDA3 /* WorkingTimeApp.swift */,
+				0FBA0D2E28F427B700E1BDA3 /* Persistence.swift */,
+				0FBA0D3328F427B700E1BDA3 /* ContentView.swift */,
+				0FBA0D3528F427B800E1BDA3 /* Assets.xcassets */,
+				0FBA0D3728F427B800E1BDA3 /* WorkingTime.entitlements */,
+				0FBA0D3028F427B700E1BDA3 /* WorkingTime.xcdatamodeld */,
+				0FBA0D3828F427B800E1BDA3 /* Preview Content */,
 			);
 			path = WorkingTime;
 			sourceTree = "<group>";
 		};
-		0FBA0CF328EDB95700E1BDA3 /* Preview Content */ = {
+		0FBA0D3828F427B800E1BDA3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0CF428EDB95700E1BDA3 /* Preview Assets.xcassets */,
+				0FBA0D3928F427B800E1BDA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		0FBA0CFD28EDB95700E1BDA3 /* WorkingTimeTests */ = {
+		0FBA0D4228F427B800E1BDA3 /* WorkingTimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0CFE28EDB95700E1BDA3 /* WorkingTimeTests.swift */,
+				0FBA0D4328F427B800E1BDA3 /* WorkingTimeTests.swift */,
 			);
 			path = WorkingTimeTests;
 			sourceTree = "<group>";
 		};
-		0FBA0D0728EDB95700E1BDA3 /* WorkingTimeUITests */ = {
+		0FBA0D4C28F427B800E1BDA3 /* WorkingTimeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0D0828EDB95700E1BDA3 /* WorkingTimeUITests.swift */,
-				0FBA0D0A28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */,
+				0FBA0D4D28F427B800E1BDA3 /* WorkingTimeUITests.swift */,
+				0FBA0D4F28F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */,
 			);
 			path = WorkingTimeUITests;
 			sourceTree = "<group>";
 		};
-		0FBA0D1928EDC82B00E1BDA3 /* Sources */ = {
+		0FBA0D6428F42E5100E1BDA3 /* Souces */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0D1A28EDC85400E1BDA3 /* WorkTime */,
+				0FBA0D6528F42E5A00E1BDA3 /* Model */,
 			);
-			path = Sources;
+			path = Souces;
 			sourceTree = "<group>";
 		};
-		0FBA0D1A28EDC85400E1BDA3 /* WorkTime */ = {
+		0FBA0D6528F42E5A00E1BDA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0FBA0D1C28EDC86100E1BDA3 /* Model */,
-				0FBA0D1B28EDC85D00E1BDA3 /* View */,
-			);
-			path = WorkTime;
-			sourceTree = "<group>";
-		};
-		0FBA0D1B28EDC85D00E1BDA3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				0FBA0CEE28EDB95500E1BDA3 /* WorkTimeView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0FBA0D1C28EDC86100E1BDA3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0FBA0D1728EDBF8B00E1BDA3 /* WorkTimeModel.swift */,
+				0FBA0D6A28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift */,
+				0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,13 +160,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FBA0CE828EDB95500E1BDA3 /* WorkingTime */ = {
+		0FBA0D2828F427B700E1BDA3 /* WorkingTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FBA0D0E28EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTime" */;
+			buildConfigurationList = 0FBA0D5328F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTime" */;
 			buildPhases = (
-				0FBA0CE528EDB95500E1BDA3 /* Sources */,
-				0FBA0CE628EDB95500E1BDA3 /* Frameworks */,
-				0FBA0CE728EDB95500E1BDA3 /* Resources */,
+				0FBA0D2528F427B700E1BDA3 /* Sources */,
+				0FBA0D2628F427B700E1BDA3 /* Frameworks */,
+				0FBA0D2728F427B700E1BDA3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -181,69 +174,69 @@
 			);
 			name = WorkingTime;
 			productName = WorkingTime;
-			productReference = 0FBA0CE928EDB95500E1BDA3 /* WorkingTime.app */;
+			productReference = 0FBA0D2928F427B700E1BDA3 /* WorkingTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0FBA0CF928EDB95700E1BDA3 /* WorkingTimeTests */ = {
+		0FBA0D3E28F427B800E1BDA3 /* WorkingTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FBA0D1128EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeTests" */;
+			buildConfigurationList = 0FBA0D5628F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeTests" */;
 			buildPhases = (
-				0FBA0CF628EDB95700E1BDA3 /* Sources */,
-				0FBA0CF728EDB95700E1BDA3 /* Frameworks */,
-				0FBA0CF828EDB95700E1BDA3 /* Resources */,
+				0FBA0D3B28F427B800E1BDA3 /* Sources */,
+				0FBA0D3C28F427B800E1BDA3 /* Frameworks */,
+				0FBA0D3D28F427B800E1BDA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FBA0CFC28EDB95700E1BDA3 /* PBXTargetDependency */,
+				0FBA0D4128F427B800E1BDA3 /* PBXTargetDependency */,
 			);
 			name = WorkingTimeTests;
 			productName = WorkingTimeTests;
-			productReference = 0FBA0CFA28EDB95700E1BDA3 /* WorkingTimeTests.xctest */;
+			productReference = 0FBA0D3F28F427B800E1BDA3 /* WorkingTimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0FBA0D0328EDB95700E1BDA3 /* WorkingTimeUITests */ = {
+		0FBA0D4828F427B800E1BDA3 /* WorkingTimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FBA0D1428EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeUITests" */;
+			buildConfigurationList = 0FBA0D5928F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeUITests" */;
 			buildPhases = (
-				0FBA0D0028EDB95700E1BDA3 /* Sources */,
-				0FBA0D0128EDB95700E1BDA3 /* Frameworks */,
-				0FBA0D0228EDB95700E1BDA3 /* Resources */,
+				0FBA0D4528F427B800E1BDA3 /* Sources */,
+				0FBA0D4628F427B800E1BDA3 /* Frameworks */,
+				0FBA0D4728F427B800E1BDA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FBA0D0628EDB95700E1BDA3 /* PBXTargetDependency */,
+				0FBA0D4B28F427B800E1BDA3 /* PBXTargetDependency */,
 			);
 			name = WorkingTimeUITests;
 			productName = WorkingTimeUITests;
-			productReference = 0FBA0D0428EDB95700E1BDA3 /* WorkingTimeUITests.xctest */;
+			productReference = 0FBA0D4928F427B800E1BDA3 /* WorkingTimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0FBA0CE128EDB95500E1BDA3 /* Project object */ = {
+		0FBA0D2128F427B700E1BDA3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					0FBA0CE828EDB95500E1BDA3 = {
+					0FBA0D2828F427B700E1BDA3 = {
 						CreatedOnToolsVersion = 14.0;
 					};
-					0FBA0CF928EDB95700E1BDA3 = {
+					0FBA0D3E28F427B800E1BDA3 = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 0FBA0CE828EDB95500E1BDA3;
+						TestTargetID = 0FBA0D2828F427B700E1BDA3;
 					};
-					0FBA0D0328EDB95700E1BDA3 = {
+					0FBA0D4828F427B800E1BDA3 = {
 						CreatedOnToolsVersion = 14.0;
-						TestTargetID = 0FBA0CE828EDB95500E1BDA3;
+						TestTargetID = 0FBA0D2828F427B700E1BDA3;
 					};
 				};
 			};
-			buildConfigurationList = 0FBA0CE428EDB95500E1BDA3 /* Build configuration list for PBXProject "WorkingTime" */;
+			buildConfigurationList = 0FBA0D2428F427B700E1BDA3 /* Build configuration list for PBXProject "WorkingTime" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -251,36 +244,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 0FBA0CE028EDB95500E1BDA3;
-			productRefGroup = 0FBA0CEA28EDB95500E1BDA3 /* Products */;
+			mainGroup = 0FBA0D2028F427B700E1BDA3;
+			productRefGroup = 0FBA0D2A28F427B700E1BDA3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FBA0CE828EDB95500E1BDA3 /* WorkingTime */,
-				0FBA0CF928EDB95700E1BDA3 /* WorkingTimeTests */,
-				0FBA0D0328EDB95700E1BDA3 /* WorkingTimeUITests */,
+				0FBA0D2828F427B700E1BDA3 /* WorkingTime */,
+				0FBA0D3E28F427B800E1BDA3 /* WorkingTimeTests */,
+				0FBA0D4828F427B800E1BDA3 /* WorkingTimeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FBA0CE728EDB95500E1BDA3 /* Resources */ = {
+		0FBA0D2728F427B700E1BDA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBA0CF528EDB95700E1BDA3 /* Preview Assets.xcassets in Resources */,
-				0FBA0CF128EDB95700E1BDA3 /* Assets.xcassets in Resources */,
+				0FBA0D3A28F427B800E1BDA3 /* Preview Assets.xcassets in Resources */,
+				0FBA0D3628F427B800E1BDA3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0CF828EDB95700E1BDA3 /* Resources */ = {
+		0FBA0D3D28F427B800E1BDA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0D0228EDB95700E1BDA3 /* Resources */ = {
+		0FBA0D4728F427B800E1BDA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -290,50 +283,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FBA0CE528EDB95500E1BDA3 /* Sources */ = {
+		0FBA0D2528F427B700E1BDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBA0CEF28EDB95500E1BDA3 /* WorkTimeView.swift in Sources */,
-				0FBA0D1828EDBF8B00E1BDA3 /* WorkTimeModel.swift in Sources */,
-				0FBA0CED28EDB95500E1BDA3 /* WorkingTimeApp.swift in Sources */,
+				0FBA0D2D28F427B700E1BDA3 /* WorkingTimeApp.swift in Sources */,
+				0FBA0D6C28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift in Sources */,
+				0FBA0D2F28F427B700E1BDA3 /* Persistence.swift in Sources */,
+				0FBA0D3428F427B700E1BDA3 /* ContentView.swift in Sources */,
+				0FBA0D3228F427B700E1BDA3 /* WorkingTime.xcdatamodeld in Sources */,
+				0FBA0D6D28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0CF628EDB95700E1BDA3 /* Sources */ = {
+		0FBA0D3B28F427B800E1BDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBA0CFF28EDB95700E1BDA3 /* WorkingTimeTests.swift in Sources */,
+				0FBA0D4428F427B800E1BDA3 /* WorkingTimeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FBA0D0028EDB95700E1BDA3 /* Sources */ = {
+		0FBA0D4528F427B800E1BDA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FBA0D0928EDB95700E1BDA3 /* WorkingTimeUITests.swift in Sources */,
-				0FBA0D0B28EDB95700E1BDA3 /* WorkingTimeUITestsLaunchTests.swift in Sources */,
+				0FBA0D4E28F427B800E1BDA3 /* WorkingTimeUITests.swift in Sources */,
+				0FBA0D5028F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FBA0CFC28EDB95700E1BDA3 /* PBXTargetDependency */ = {
+		0FBA0D4128F427B800E1BDA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0FBA0CE828EDB95500E1BDA3 /* WorkingTime */;
-			targetProxy = 0FBA0CFB28EDB95700E1BDA3 /* PBXContainerItemProxy */;
+			target = 0FBA0D2828F427B700E1BDA3 /* WorkingTime */;
+			targetProxy = 0FBA0D4028F427B800E1BDA3 /* PBXContainerItemProxy */;
 		};
-		0FBA0D0628EDB95700E1BDA3 /* PBXTargetDependency */ = {
+		0FBA0D4B28F427B800E1BDA3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0FBA0CE828EDB95500E1BDA3 /* WorkingTime */;
-			targetProxy = 0FBA0D0528EDB95700E1BDA3 /* PBXContainerItemProxy */;
+			target = 0FBA0D2828F427B700E1BDA3 /* WorkingTime */;
+			targetProxy = 0FBA0D4A28F427B800E1BDA3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0FBA0D0C28EDB95700E1BDA3 /* Debug */ = {
+		0FBA0D5128F427B800E1BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,7 +387,7 @@
 			};
 			name = Debug;
 		};
-		0FBA0D0D28EDB95700E1BDA3 /* Release */ = {
+		0FBA0D5228F427B800E1BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -442,7 +438,7 @@
 			};
 			name = Release;
 		};
-		0FBA0D0F28EDB95700E1BDA3 /* Debug */ = {
+		0FBA0D5428F427B800E1BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -480,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		0FBA0D1028EDB95700E1BDA3 /* Release */ = {
+		0FBA0D5528F427B800E1BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -518,7 +514,7 @@
 			};
 			name = Release;
 		};
-		0FBA0D1228EDB95700E1BDA3 /* Debug */ = {
+		0FBA0D5728F427B800E1BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -541,7 +537,7 @@
 			};
 			name = Debug;
 		};
-		0FBA0D1328EDB95700E1BDA3 /* Release */ = {
+		0FBA0D5828F427B800E1BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -564,7 +560,7 @@
 			};
 			name = Release;
 		};
-		0FBA0D1528EDB95700E1BDA3 /* Debug */ = {
+		0FBA0D5A28F427B800E1BDA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -586,7 +582,7 @@
 			};
 			name = Debug;
 		};
-		0FBA0D1628EDB95700E1BDA3 /* Release */ = {
+		0FBA0D5B28F427B800E1BDA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -611,43 +607,56 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FBA0CE428EDB95500E1BDA3 /* Build configuration list for PBXProject "WorkingTime" */ = {
+		0FBA0D2428F427B700E1BDA3 /* Build configuration list for PBXProject "WorkingTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FBA0D0C28EDB95700E1BDA3 /* Debug */,
-				0FBA0D0D28EDB95700E1BDA3 /* Release */,
+				0FBA0D5128F427B800E1BDA3 /* Debug */,
+				0FBA0D5228F427B800E1BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FBA0D0E28EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTime" */ = {
+		0FBA0D5328F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FBA0D0F28EDB95700E1BDA3 /* Debug */,
-				0FBA0D1028EDB95700E1BDA3 /* Release */,
+				0FBA0D5428F427B800E1BDA3 /* Debug */,
+				0FBA0D5528F427B800E1BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FBA0D1128EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeTests" */ = {
+		0FBA0D5628F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FBA0D1228EDB95700E1BDA3 /* Debug */,
-				0FBA0D1328EDB95700E1BDA3 /* Release */,
+				0FBA0D5728F427B800E1BDA3 /* Debug */,
+				0FBA0D5828F427B800E1BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FBA0D1428EDB95700E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeUITests" */ = {
+		0FBA0D5928F427B800E1BDA3 /* Build configuration list for PBXNativeTarget "WorkingTimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FBA0D1528EDB95700E1BDA3 /* Debug */,
-				0FBA0D1628EDB95700E1BDA3 /* Release */,
+				0FBA0D5A28F427B800E1BDA3 /* Debug */,
+				0FBA0D5B28F427B800E1BDA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FBA0D3028F427B700E1BDA3 /* WorkingTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FBA0D3128F427B700E1BDA3 /* WorkingTime.xcdatamodel */,
+			);
+			currentVersion = 0FBA0D3128F427B700E1BDA3 /* WorkingTime.xcdatamodel */;
+			path = WorkingTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 0FBA0CE128EDB95500E1BDA3 /* Project object */;
+	rootObject = 0FBA0D2128F427B700E1BDA3 /* Project object */;
 }

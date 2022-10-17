@@ -18,6 +18,7 @@
 		0FBA0D5028F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D4F28F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */; };
 		0FBA0D6C28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D6A28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift */; };
 		0FBA0D6D28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */; };
+		0FBA0D7028F43D6E00E1BDA3 /* CoreDataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA0D6F28F43D6E00E1BDA3 /* CoreDataClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0FBA0D4F28F427B800E1BDA3 /* WorkingTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0FBA0D6A28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkTime+CoreDataClass.swift"; sourceTree = "<group>"; };
 		0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WorkTime+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0FBA0D6F28F43D6E00E1BDA3 /* CoreDataClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		0FBA0D6428F42E5100E1BDA3 /* Souces */ = {
 			isa = PBXGroup;
 			children = (
+				0FBA0D6E28F43D6900E1BDA3 /* Client */,
 				0FBA0D6528F42E5A00E1BDA3 /* Model */,
 			);
 			path = Souces;
@@ -155,6 +158,14 @@
 				0FBA0D6B28F42ECB00E1BDA3 /* WorkTime+CoreDataProperties.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0FBA0D6E28F43D6900E1BDA3 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA0D6F28F43D6E00E1BDA3 /* CoreDataClient.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 			files = (
 				0FBA0D2D28F427B700E1BDA3 /* WorkingTimeApp.swift in Sources */,
 				0FBA0D6C28F42ECB00E1BDA3 /* WorkTime+CoreDataClass.swift in Sources */,
+				0FBA0D7028F43D6E00E1BDA3 /* CoreDataClient.swift in Sources */,
 				0FBA0D2F28F427B700E1BDA3 /* Persistence.swift in Sources */,
 				0FBA0D3428F427B700E1BDA3 /* ContentView.swift in Sources */,
 				0FBA0D3228F427B700E1BDA3 /* WorkingTime.xcdatamodeld in Sources */,

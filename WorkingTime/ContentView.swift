@@ -14,6 +14,7 @@ struct ContentView: View {
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \WorkTime.timestamp, ascending: true)],
         animation: .default)
+
     private var items: FetchedResults<WorkTime>
 
     var body: some View {
@@ -23,7 +24,12 @@ struct ContentView: View {
                     NavigationLink {
                         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
                     } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+                        //                        Text(item.timestamp!, formatter: itemFormatter)
+                        if let title = item.title {
+                            Text(title)
+                        } else {
+                            Text("タイトル未設定")
+                        }
                     }
                 }
                 .onDelete(perform: deleteItems)
@@ -45,9 +51,19 @@ struct ContentView: View {
     }
 
     private func addItem() {
+        // すでにあるかサーチ
+        if checkAlreadyCreated(date: Date()) {
+            print("既に作成されている")
+            return
+        }
+        let startDate = Date()
         withAnimation {
+            let title = titleFormatter.string(from: startDate)
             let newItem = WorkTime(context: viewContext)
-            newItem.timestamp = Date()
+            newItem.title = title
+            newItem.timestamp = startDate
+            newItem.startedAt = startDate
+            newItem.endedAt = startDate
 
             do {
                 try viewContext.save()
@@ -63,7 +79,6 @@ struct ContentView: View {
     private func deleteItems(offsets: IndexSet) {
         withAnimation {
             offsets.map { items[$0] }.forEach(viewContext.delete)
-
             do {
                 try viewContext.save()
             } catch {
@@ -74,6 +89,28 @@ struct ContentView: View {
             }
         }
     }
+
+    private func checkAlreadyCreated(date: Date) -> Bool {
+        // TODO: @FetchRequet化
+        var calendar = Calendar.current
+        calendar.timeZone = NSTimeZone.local
+        let dateFrom = calendar.startOfDay(for: date)
+        let dateTo = calendar.date(byAdding: .day, value: 1, to: dateFrom)
+        let predicate = NSPredicate(format : "startedAt <= %@ AND  startedAt >= %@", dateTo! as CVarArg, dateFrom as CVarArg)
+        let request = NSFetchRequest<WorkTime>(entityName: "WorkTime")
+        request.sortDescriptors = []
+        request.predicate = predicate
+        do {
+            let result = try viewContext.fetch(request)
+            print("結果",result)
+            return !result.isEmpty
+
+        } catch {
+            let nsError = error as NSError
+            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+        }
+    }
+
 }
 
 private let itemFormatter: DateFormatter = {
@@ -83,8 +120,16 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
-    }
-}
+private let titleFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    formatter.timeStyle = .none
+    formatter.locale = Locale(identifier: "ja_JP")
+    return formatter
+}()
+
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+//    }
+//}
